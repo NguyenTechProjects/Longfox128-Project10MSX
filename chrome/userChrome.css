@@ -546,7 +546,17 @@ toolbar .toolbarbutton-1 {
 }
 
 #sidebar-button .toolbarbutton-text::before {
-  content: "Show sidebar";
+  content: "Hide Tasks";
+  margin-top: -1px !important;
+}
+
+#email-link-button .toolbarbutton-text::before {
+  content: "Mail";
+  margin-top: -1px !important;
+}
+
+#bookmarks-menu-button .toolbarbutton-text::before {
+  content: "Favorites";
   margin-top: -1px !important;
 }
 
@@ -1345,3 +1355,36 @@ menuseparator {
   border-bottom-left-radius: 12px !important;
   border-bottom-right-radius: 12px !important;
 }/*# sourceMappingURL=userChrome.css.map */
+
+/* Completely remove the tab strip and its layout space */
+#TabsToolbar {
+  display: none !important;
+  visibility: collapse !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/* Remove titlebar spacing reserved for tabs */
+#titlebar {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Remove tab-related spacers */
+.titlebar-spacer {
+  display: none !important;
+  width: 0 !important;
+}
+
+/* Ensure navigation toolbar starts immediately */
+#navigator-toolbox {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}

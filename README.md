@@ -1,16 +1,13 @@
-# version for 128 is on hiatus cus ff nightly is better for our purposes. up to date repo - https://github.com/notzetkin/Longfox-Nightly
-
-
 # Longfox128: The Search For More Plex
 Longhorn Plex demo styled browser theme for FF128esr+
 
-## differences from another repo
+## Deferent from the original repo
 
-well supports 128 obvs
+Well it fixes many accuracy issues xD
 
-## how do i plex
-1. install ff128
-2. go to help > more troubleshooting information > profile folder
+## How do I install this theme?
+1. Install Firefox 128 ESR in https://releases.mozilla.org/pub/firefox/releases/128.10.0esr/win64/
+2. Go to help > more troubleshooting information > profile folder
 3. copy contents of "firefox" folder to the directory you installed your browser in
 4. copy "chrome" folder to your profile folder
 5. go to "about:config" and change these settings:
@@ -26,11 +23,12 @@ well supports 128 obvs
 10. right click on a toolbar, choose "customise", enable titlebar and set bookmarks toolbar to "never show"
 11. you are ready to plex! (ideally)
 
-## to-do's
+## To-do's
 1. custom js scrollbars for 128esr
 2. make menu panels look like plex demo ones
 3. all vector icons
 4. style sidebars settings and new tab page to be more plexy
+5. fix accuracy issues
 
 # THANKS TO:
 ![AngelBruni](https://github.com/angelbruni) and ![Dominic Hayes](https://github.com/dominichayesferen) for mulicolor support from ![Geckium](https://github.com/angelbruni/Geckium)

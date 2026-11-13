@@ -21,14 +21,11 @@ Well it fixes many accuracy issues xD
 8. go to your windows settings app and choose personalization/colors
 9. change windows accent color to #4E87D4 (base color for blue plex, color of firefox theme can be changed based on windows accent color)
 10. right click on a toolbar, choose "customise", enable titlebar and set bookmarks toolbar to "never show"
-11. you are ready to plex! (ideally)
+11. You are all set up!
 
 ## To-do's
-1. custom js scrollbars for 128esr
-2. make menu panels look like plex demo ones
-3. all vector icons
-4. style sidebars settings and new tab page to be more plexy
-5. fix accuracy issues
+1. make menu panels look like plex demo ones
+2. fix accuracy issues
 
 # THANKS TO:
 ![AngelBruni](https://github.com/angelbruni) and ![Dominic Hayes](https://github.com/dominichayesferen) for mulicolor support from ![Geckium](https://github.com/angelbruni/Geckium)

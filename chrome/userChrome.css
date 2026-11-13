@@ -1388,3 +1388,57 @@ menuseparator {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+
+#preferences-button .toolbarbutton-text {
+  font-size: 0 !important;
+}
+
+#preferences-button .toolbarbutton-text::after {
+  content: "Up a folder";
+  font-size: 11px !important;
+}
+
+#unified-extensions-button .toolbarbutton-text {
+  font-size: 0 !important;
+}
+
+#unified-extensions-button .toolbarbutton-text::after {
+  content: "Folders";
+  font-size: 11px !important;
+}
+
+#history-panelmenu .toolbarbutton-text {
+  font-size: 0 !important;
+}
+
+#history-panelmenu .toolbarbutton-text::after {
+  content: "Preview";
+  font-size: 11px !important;
+}
+
+/* Add spacing around menu bar labels */
+#main-menubar > menu {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+/* Hide Help from the menu bar */
+#helpMenu {
+  display: none !important;
+}
+
+/* Remove History and Bookmarks from the menu bar */
+#history-menu,
+#bookmarksMenu {
+    display: none !important;
+}
+
+/* Rename Downloads to Folders */
+#downloads-button .toolbarbutton-text {
+    font-size: 0 !important;
+}
+
+#downloads-button .toolbarbutton-text::after {
+    content: "Folders";
+    font-size: 11px !important;
+}
